@@ -1,5 +1,15 @@
 # Floof practice lab
 
+## Instructions
+
+1. Clone down the repo and run `npm install`
+2. Clone down the backend from `https://github.com/mazenswar/react-floof-lab-072619-backend` and then:
+   - `bundle install`
+   - `rails db:create`
+   - `rails db:migrate`
+   - `rails db:seed`
+3. Run your servers and get get down to business!
+
 ## Deliverables:
 
 1. When you app loads, you should fetch all the `Foxes` from the api and render a `<Card />` for each `Fox` for in `<CardContainer />`.
