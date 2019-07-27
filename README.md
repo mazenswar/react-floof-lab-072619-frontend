@@ -3,7 +3,7 @@
 ## Instructions
 
 1. Clone down the repo and run `npm install`
-2. Clone down the backend from `https://github.com/mazenswar/react-floof-lab-072619-backend` and then:
+2. Clone down the backend from https://github.com/mazenswar/react-floof-lab-072619-backend and then:
    - `bundle install`
    - `rails db:create`
    - `rails db:migrate`
