@@ -1,13 +1,7 @@
-import React, { Component } from "react";
-import Card from "./Card";
+import React from "react";
 
-export default class CardContainer extends Component {
-  generateCards = () => {
-    const { foxes, showFox } = this.props;
-    return foxes.map(fox => <Card key={fox.id} showFox={showFox} fox={fox} />);
-  };
+const CardContainer = () => {
+  return <div className="card-container">Put the cards here!</div>;
+};
 
-  render() {
-    return <div className="card-container">{this.generateCards()}</div>;
-  }
-}
+export default CardContainer;
